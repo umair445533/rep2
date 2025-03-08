@@ -562,9 +562,6 @@ footer a:hover {
         transition: 0.3s;
     }
 
-    #navbar.active{
-        right: 0px;
-    }
     #navbar li {
         margin-bottom: 25px;
     }
