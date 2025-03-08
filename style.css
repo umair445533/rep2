@@ -582,6 +582,7 @@ footer a:hover {
     }
     #lg-bag {
         display: none;
+        color: black;
     }
 
     #feature {
