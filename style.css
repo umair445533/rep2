@@ -596,13 +596,14 @@ footer a:hover {
     }
     #feature {
         justify-content: center;
-        width: 100vh;
+        width: 120vh;
     }
     #feature .fe-box {
         margin: 15px 15px;
     }
     #product1 .pro-container {
         justify-content: center;
+        width: 120vh;
     }
     #product1 .pro {
         margin: 15px;
