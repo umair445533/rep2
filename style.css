@@ -547,7 +547,7 @@ footer a:hover {
         padding: 40px 80px;
     }
     #navbar {
-        display: flex;
+        display: none;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
