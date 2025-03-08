@@ -637,7 +637,7 @@ footer a:hover {
         background-position: 55%;
     }
     #feature {
-        justify-content: space-between;
+        justify-content: center;
     }
     #feature .fe-box {
         width: 155px;
