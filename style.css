@@ -587,8 +587,8 @@ footer a:hover {
         display: none;
     }
     #hero {
-        width: 390;
-        height: 170vh;
+        width: 390vh;
+        height: 70vh;
         padding: 0 80px;
         background-position: top 30% right 30%;
     }
