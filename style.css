@@ -565,6 +565,8 @@ footer a:hover {
     #navbar li {
         margin-bottom: 25px;
     }
+     #header {
+        width: 120vh;
     }
     #mobile {
         display: flex;
@@ -587,13 +589,14 @@ footer a:hover {
         display: none;
     }
     #hero {
-        width: 390vh;
+        width: 120vh;
         height: 70vh;
         padding: 0 80px;
         background-position: top 30% right 30%;
     }
     #feature {
         justify-content: center;
+        width: 100vh;
     }
     #feature .fe-box {
         margin: 15px 15px;
