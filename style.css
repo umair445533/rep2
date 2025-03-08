@@ -134,7 +134,7 @@ button.white {
 }
 
 #mobile {
-    display: none;
+    display: flex;
     align-items: center;
 }
 
