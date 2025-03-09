@@ -616,13 +616,13 @@ footer a:hover {
     }
     #banner {
         weight: 100%;
-        height: auto;
-        display: block;
-    }
-    #sm-banner .banner-box {
         max-width: 100%;
         height: auto;
-        display: block;
+    }
+    #sm-banner .banner-box {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
     }
     #newsletter .form {
         max-width: 100%;
@@ -685,11 +685,11 @@ footer a:hover {
         max-width: 100%;
     }
     #banner {
-        height: 40vh;
+        height: auto;
         max-width: 100%;
     }
     #sm-banner .banner-box {
-        height: 40vh;
+        height: auto;
         max-width: 100%;
     }
     #sm-banner .banner-box2 {
@@ -699,7 +699,6 @@ footer a:hover {
         padding: 0 20px;
     }
     banner3 .banner-box {
-        width: 100%;
         max-width: 100%;
     }
     #newsletter {
