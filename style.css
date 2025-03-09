@@ -567,6 +567,8 @@ footer a:hover {
     }
      #header {
         max-width: 100%;
+        height: auto;
+        display: block;
     }
     #mobile {
         display: flex;
@@ -590,13 +592,16 @@ footer a:hover {
     }
     #hero {
         max-width: 100vw;
-        height: 70vh;
+        height: auto;
+        display: block;
         padding: 0 80px;
         background-position: top 30% right 30%;
     }
     #feature {
         justify-content: center;
         max-width: 100%;
+        height: auto;
+        display: block;
     }
     #feature .fe-box {
         margin: 15px 15px;
@@ -606,32 +611,45 @@ footer a:hover {
     }
     #EV-video4 .video {
         max-width: 100%;
+        height: auto;
+        display: block;
     }
     #EV-video3 {
         text-align: center;
     }
     #EV-video3 .video {
         max-width: 100%;
+        height: auto;
+        display: block;
     }
     #product1 .pro-container {
         justify-content: center;
         width: 100%;
+        height: auto;
+        display: block;
     }
     #product1 .pro {
         margin: 35px;
     }
     #banner {
-        height: 120vh;
+        weight: 100%;
+        height: auto;
+        display: block;
     }
     #sm-banner .banner-box {
         max-width: 100%;
-        height: 30vh;
+        height: auto;
+        display: block;
     }
     #newsletter .form {
         max-width: 100%;
+        height: auto;
+        display: block;
     }
     #footer {
         max-width: 100%;
+        height: auto;
+        display: block;
 }
 
 @media (max-width: 100%) {
