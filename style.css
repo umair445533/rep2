@@ -544,6 +544,18 @@ footer a:hover {
 
 
 @media (max-width: 799px) {  /* Adjust width for tablets and smaller devices */
+     .section-p6 {
+    #EV-video4 .video {
+        width: 10%; /* Force full width */
+        max-width: 100%;
+        height: auto;
+    }
+    .section-p5 {
+    #EV-video3 .video {
+        width: 100%; /* Force full width */
+        max-width: 100%;
+        height: auto;
+    }
     .section-p1 {
         padding: 40px 80px;
     }
@@ -630,18 +642,6 @@ footer a:hover {
         max-width: 100%;
         height: auto;
         display: block;
-    }
-    .section-p6 {
-    #EV-video4 .video {
-        width: 100%; /* Force full width */
-        max-width: 100%;
-        height: auto;
-    }
-    .section-p5 {
-    #EV-video3 .video {
-        width: 100%; /* Force full width */
-        max-width: 100%;
-        height: auto;
     }
     #footer {
         max-width: 100%;
