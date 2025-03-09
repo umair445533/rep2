@@ -634,7 +634,7 @@ footer a:hover {
         text-align: center;
     }
     #EV-video4 .video {
-        max-width: 100%;
+        max-width: 50%;
         height: auto;
         display: block;
     }
@@ -642,7 +642,7 @@ footer a:hover {
         text-align: center;
     }
     #EV-video3 .video {
-        max-width: 100%;
+        max-width: 50%;
         height: auto;
         display: block;
     }
