@@ -556,7 +556,7 @@ footer a:hover {
 @media (max-width: 799px) {  /* Adjust width for tablets and smaller devices */
      .section-p6 {
     #EV-video4 .video {
-        width: 90%;  /* Slight padding for smaller screens */
+        width: 10%;  /* Slight padding for smaller screens */
         max-width: 100%;
         height: auto;
     }
