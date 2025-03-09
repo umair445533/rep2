@@ -676,6 +676,9 @@ footer a:hover {
     }
     #header {
         padding: 10px 30px;
+        width: 90%;  /* Slight padding for smaller screens */
+        max-width: 100%;
+        height: auto;
     }
     h1 {
         font-size: 38px;
@@ -715,12 +718,14 @@ footer a:hover {
         max-width: 100%;
     }
     #banner {
-        height: auto;
+        width: 90%;  /* Slight padding for smaller screens */
         max-width: 100%;
+        height: auto;
     }
     #sm-banner .banner-box {
-        height: auto;
+        width: 90%;  /* Slight padding for smaller screens */
         max-width: 100%;
+        height: auto;
     }
     #sm-banner .banner-box2 {
         margin-top: 20px;
@@ -729,7 +734,9 @@ footer a:hover {
         padding: 0 20px;
     }
     banner3 .banner-box {
+        width: 90%;  /* Slight padding for smaller screens */
         max-width: 100%;
+        height: auto;
     }
     #newsletter {
         padding: 40px 20px;
@@ -741,7 +748,12 @@ footer a:hover {
         text-align: start;
     }
     #footer {
+        width: 90%;  /* Slight padding for smaller screens */
         max-width: 100%;
+        height: auto;
+    }
+    #footer .copyright {
+        text-align: start;
     }
 }
 
