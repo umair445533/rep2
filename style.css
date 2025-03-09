@@ -246,18 +246,6 @@ button.white {
     color: #ffffff;
     background-color: #23ae41;
 }
-video {
-    max-width: 100%;
-    height: auto;
-    display: block;  /* Prevents inline whitespace */
-    }
-
-    /* Ensure specific video containers don't exceed screen width */
-    #EV-video4, #EV-video3 {
-    text-align: center;
-    max-width: 100%;
-    overflow: hidden;  /* Prevents overflow */
-    }
 #EV-video4 {
     text-align: center;
 }
