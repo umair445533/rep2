@@ -134,7 +134,7 @@ button.white {
 }
 
 #mobile {
-    display: flex;
+    display: none;
     align-items: center;
 }
 
@@ -246,6 +246,7 @@ button.white {
     color: #ffffff;
     background-color: #23ae41;
 }
+
 video {
     width: 100%;  /* Video will scale with the screen */
     max-width: 100%;
@@ -253,11 +254,11 @@ video {
     display: block;  /* Removes extra spacing issues */
     object-fit: contain; /* Ensures the video fits properly */
 }
+
 #EV-video4 {
     max-width: 100%;
     overflow: hidden;
     text-align: center;
-}
 }
 
 #EV-video4 .video {
@@ -381,7 +382,13 @@ video {
     align-items: center;
     text-align: center;
     background-image: url("https://goldcoastgaragedoorrepair.com.au/wp-content/uploads/2024/01/Smart-Garage-Door-Opener-in-Australia.jpg");
-    padding: 300px 300px 300px 300px;
+    background-position: 30%;
+    padding: 195px;
+    width: 50%;  /* Video will scale with the screen */
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
 }
 
 #banner h4 {
@@ -553,8 +560,8 @@ footer a:hover {
 }
 
 
-@media (max-width: 799px) {  /* Adjust width for tablets and smaller devices */
-     .section-p6 {
+@media (max-width:799px) {
+    .section-p6 {
         padding: 20px;
     }
     #EV-video4 .video {
