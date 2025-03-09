@@ -631,7 +631,14 @@ footer a:hover {
         height: auto;
         display: block;
     }
-    #EV-video4 .video, #EV-video3 .video {
+    .section-p6 {
+    #EV-video4 .video {
+        width: 100%; /* Force full width */
+        max-width: 100%;
+        height: auto;
+    }
+    .section-p5 {
+    #EV-video3 .video {
         width: 100%; /* Force full width */
         max-width: 100%;
         height: auto;
