@@ -677,6 +677,22 @@ footer a:hover {
         max-width: 100%;
         margin: 0 0 15px 0;
     }
+    #EV-video4 {
+        text-align: center;
+    }
+    #EV-video4 .video {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    #EV-video3 {
+        text-align: center;
+    }
+    #EV-video3 .video {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
     #product1 .pro {
         max-width: 100%;
     }
