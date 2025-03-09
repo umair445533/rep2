@@ -650,6 +650,18 @@ footer a:hover {
 }
 
 @media (max-width: 477px) {  /* Adjust for mobile phones */
+    .section-p6 {
+    #EV-video4 .video {
+        width: 10%; /* Force full width */
+        max-width: 100%;
+        height: auto;
+    }
+    .section-p5 {
+    #EV-video3 .video {
+        width: 100%; /* Force full width */
+        max-width: 100%;
+        height: auto;
+    }
     .section-p1 {
         padding: 20px;
     }
