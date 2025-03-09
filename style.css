@@ -601,6 +601,18 @@ footer a:hover {
     #feature .fe-box {
         margin: 15px 15px;
     }
+    #EV-video4 {
+        text-align: center;
+    }
+    #EV-video4 .video {
+        max-width: 100%;
+    }
+    #EV-video3 {
+        text-align: center;
+    }
+    #EV-video3 .video {
+        max-width: 100%;
+    }
     #product1 .pro-container {
         justify-content: center;
         width: 100%;
