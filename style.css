@@ -246,7 +246,18 @@ button.white {
     color: #ffffff;
     background-color: #23ae41;
 }
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;  /* Prevents inline whitespace */
+    }
 
+    /* Ensure specific video containers don't exceed screen width */
+    #EV-video4, #EV-video3 {
+    text-align: center;
+    max-width: 100%;
+    overflow: hidden;  /* Prevents overflow */
+    }
 #EV-video4 {
     text-align: center;
 }
@@ -630,28 +641,11 @@ footer a:hover {
         height: auto;
         display: block;
     }
-   /* Make all videos responsive */
-    video {
-    max-width: 100%;
-    height: auto;
-    display: block;  /* Prevents inline whitespace */
-    }
-
-    /* Ensure specific video containers don't exceed screen width */
-    #EV-video4, #EV-video3 {
-    text-align: center;
-    max-width: 100%;
-    overflow: hidden;  /* Prevents overflow */
-    }
-
-/* Mobile-specific fix */
-@media (max-width: 799px) {
     #EV-video4 .video, #EV-video3 .video {
         width: 100%; /* Force full width */
         max-width: 100%;
         height: auto;
     }
-}
     #footer {
         max-width: 100%;
         height: auto;
