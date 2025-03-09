@@ -246,8 +246,18 @@ button.white {
     color: #ffffff;
     background-color: #23ae41;
 }
+video {
+    width: 100%;  /* Video will scale with the screen */
+    max-width: 100%;
+    height: auto;
+    display: block;  /* Removes extra spacing issues */
+    object-fit: contain; /* Ensures the video fits properly */
+}
 #EV-video4 {
+    max-width: 100%;
+    overflow: hidden;
     text-align: center;
+}
 }
 
 #EV-video4 .video {
@@ -546,13 +556,13 @@ footer a:hover {
 @media (max-width: 799px) {  /* Adjust width for tablets and smaller devices */
      .section-p6 {
     #EV-video4 .video {
-        width: 10%; /* Force full width */
+        width: 90%;  /* Slight padding for smaller screens */
         max-width: 100%;
         height: auto;
     }
     .section-p5 {
     #EV-video3 .video {
-        width: 100%; /* Force full width */
+        width: 90%;  /* Slight padding for smaller screens */
         max-width: 100%;
         height: auto;
     }
@@ -652,13 +662,13 @@ footer a:hover {
 @media (max-width: 477px) {  /* Adjust for mobile phones */
     .section-p6 {
     #EV-video4 .video {
-        width: 10%; /* Force full width */
+        width: 90%;  /* Slight padding for smaller screens */
         max-width: 100%;
         height: auto;
     }
     .section-p5 {
     #EV-video3 .video {
-        width: 100%; /* Force full width */
+        width: 90%;  /* Slight padding for smaller screens */
         max-width: 100%;
         height: auto;
     }
