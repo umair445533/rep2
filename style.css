@@ -630,22 +630,28 @@ footer a:hover {
         height: auto;
         display: block;
     }
-    #EV-video4 {
-        text-align: center;
+   /* Make all videos responsive */
+    video {
+    max-width: 100%;
+    height: auto;
+    display: block;  /* Prevents inline whitespace */
     }
-    #EV-video4 .video {
-        max-width: 50%;
+
+    /* Ensure specific video containers don't exceed screen width */
+    #EV-video4, #EV-video3 {
+    text-align: center;
+    max-width: 100%;
+    overflow: hidden;  /* Prevents overflow */
+    }
+
+/* Mobile-specific fix */
+@media (max-width: 799px) {
+    #EV-video4 .video, #EV-video3 .video {
+        width: 100%; /* Force full width */
+        max-width: 100%;
         height: auto;
-        display: block;
     }
-    #EV-video3 {
-        text-align: center;
-    }
-    #EV-video3 .video {
-        max-width: 50%;
-        height: auto;
-        display: block;
-    }
+}
     #footer {
         max-width: 100%;
         height: auto;
