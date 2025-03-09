@@ -136,6 +136,7 @@ button.white {
 #mobile {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 #close {
@@ -220,7 +221,7 @@ button.white {
 }
 
 #feature .fe-box {
-    width: 180px;
+    width: 100%;
     text-align: center;
     padding: -100px -100px;
     border: 1px solid #11922a;
@@ -253,7 +254,7 @@ button.white {
 #EV-video4 .video {
     width: 100%;
     height: 100%;
-    border-radius: 100px;
+    border-radius: 50px;
     margin: 10px auto 0 auto;
 }
 
@@ -265,7 +266,7 @@ button.white {
 #EV-video3 .video {
     width: 100%;
     height: 100%;
-    border-radius: 100px;
+    border-radius: 50px;
     margin: -240px auto -200 auto;
 }
 
