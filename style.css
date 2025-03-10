@@ -923,7 +923,8 @@ footer a:hover {
 #blog .blog-box {
     display: flex;
     align-items: center;
-    width: 100%;
+    max-width: 140%;
+    width: 140%;
     position: relative;
     padding-bottom: 90px;
 }
