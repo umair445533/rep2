@@ -44,6 +44,9 @@ p {
 body {
     width: 40px 0;
 }
+button {
+    padding: 20px;
+}
 
 button.normal {
     font-size: 14px;
