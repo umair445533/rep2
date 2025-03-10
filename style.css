@@ -603,7 +603,7 @@ footer a:hover {
     }
     #charger-video .video-container {
         width: 1%;  /* Slight padding for smaller screens */
-        max-width: 100%;
+        max-width: 10%;
         height: auto;
     }
     #blog .blog-box {
@@ -673,7 +673,7 @@ footer a:hover {
     }
     #EV-video4 .video {
         width: 90%;  /* Slight padding for smaller screens */
-        max-width: 100%;
+        max-width: 10%;
         height: auto;
     }
     .section-p5 {
