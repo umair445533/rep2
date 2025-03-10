@@ -601,7 +601,17 @@ footer a:hover {
         max-width: 100%;
         height: auto;
     }
-
+    #charger-video .video-container {
+        width: 90%;  /* Slight padding for smaller screens */
+        max-width: 100%;
+        height: auto;
+    }
+    #blog .blog-box {
+        justify-content: center;
+    }
+    #blog .blog-img {
+        margin: 15px;
+    }
     #navbar.active{
         right: 0px;
     }
@@ -711,6 +721,17 @@ footer a:hover {
     }
     #newsletter .form {
         width: 100%;
+    }
+    #charger-video .video-container {
+        width: 90%;  /* Slight padding for smaller screens */
+        max-width: 100%;
+        height: auto;
+    }
+    #blog .blog-box {
+        justify-content: center;
+    }
+    #blog .blog-img {
+        margin: 15px;
     }
 }
 
@@ -1177,3 +1198,4 @@ footer a:hover {
     padding: 14px;
     opacity: 0.7;
 }
+
