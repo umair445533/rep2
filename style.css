@@ -620,8 +620,8 @@ footer a:hover {
     #header {
         width: 120vh;
     }
-    button.normal {
-    padding: 1px 30px;
+    #button.normal {
+    padding: 100px 30px;
     }
     #mobile {
         display: flex;
