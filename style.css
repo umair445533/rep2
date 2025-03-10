@@ -729,8 +729,8 @@ footer a:hover {
         width: 100%;
     }
     #charger-video .video-container {
-        width: 90%;  /* Slight padding for smaller screens */
-        max-width: 100%;
+        width: 1%;  /* Slight padding for smaller screens */
+        max-width: 10%;
         height: auto;
     }
     #blog .blog-box {
