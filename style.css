@@ -608,8 +608,8 @@ footer a:hover {
         height: auto;
     }
     #charger-video .video-container {
-        width: 1%;  /* Slight padding for smaller screens */
-        max-width: 10%;
+        width: 100%;  /* Slight padding for smaller screens */
+        max-width: 100%;
         height: auto;
     }
     #blog .blog-box {
