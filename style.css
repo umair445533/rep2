@@ -578,13 +578,17 @@ footer a:hover {
     .section-p5 {
         padding: 20px;
     }
-    #EV-video3 .video {
-        width: 90%;  /* Slight padding for smaller screens */
-        max-width: 100%;
-        height: auto;
-        }
-    .section-p1 {
+    .section-m1 {
         padding: 40px 40px;
+    }
+    #charger-video .video {
+        position: relative;
+        width: 900%;  /* Slight padding for smaller screens */
+        max-width: 1000%;
+        height: auto;
+    }
+    .section-p1 {
+        padding: 20px;
     }
     #navbar {
         display: flex;
@@ -606,17 +610,6 @@ footer a:hover {
         width: 50%;  /* Slight padding for smaller screens */
         max-width: 100%;
         height: auto;
-    }
-    #charger-video .video-container {
-        width: 100%;  /* Slight padding for smaller screens */
-        max-width: 100%;
-        height: auto;
-    }
-    #blog .blog-box {
-        justify-content: center;
-    }
-    #blog .blog-img {
-        margin: 15px;
     }
     #navbar.active{
         right: 0px;
@@ -647,7 +640,6 @@ footer a:hover {
     #lg-bag {
         display: none;
     }
-
     #feature {
         justify-content: center;
     }
@@ -670,6 +662,31 @@ footer a:hover {
     #newsletter .form {
         width: 70%;
     }
+    #blog {
+        padding: 0 20px; /* Reduce padding for smaller screens */
+    }
+
+    #blog .blog-box {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        padding-bottom: 40px; /* Reduce bottom spacing */
+    }
+    #blog .blog-img {
+        width: 100%; /* Full width for better visibility */
+        margin: 0 0 20px 0; /* Remove right margin & add bottom spacing */
+    }
+    #blog img {
+        height: auto; /* Maintain aspect ratio */
+        max-height: 250px; /* Prevent excessive height */
+    }
+    #blog .blog-details {
+        width: 100%; /* Full width for better text flow */
+        text-align: center; /* Center text for a clean look */
+        padding: 0 10px; /* Add some spacing */
+    }
+    #blog .blog-details a::after {
+        display: none; /* Hide the underline effect on small screens */
+    }
 }
 
 @media (max-width: 477px) {
@@ -677,8 +694,8 @@ footer a:hover {
         padding: 20px;
     }
     #EV-video4 .video {
-        width: 90%;  /* Slight padding for smaller screens */
-        max-width: 10%;
+        width: 110%;  /* Slight padding for smaller screens */
+        max-width: 100%;
         height: auto;
     }
     .section-p5 {
@@ -688,13 +705,27 @@ footer a:hover {
         width: 90%;  /* Slight padding for smaller screens */
         max-width: 100%;
         height: auto;
-        }
+    }
+    .section-m1 {
+        padding: 40px 40px;
+    }
+    #charger-video .video {
+        width: 200% !important;  /* Ensures full width on small screens */
+        max-width: 200%;  /* Prevents overflow */
+        height: auto;
+        margin: 0 auto; /* Centers it */
+    }
+    #charger-video .video video {
+        width: 100% !important;
+        height: auto;
+        border-radius: 50px; /* Reduce border-radius for mobile */
+    }
     .section-p1 {
         padding: 20px;
     }
     #header {
-        padding: 10px 300px;
-        width: 90%;  /* Slight padding for smaller screens */
+        padding: 5px 5px;
+        width: 100%;  /* Slight padding for smaller screens */
         max-width: 100%;
         height: auto;
     }
@@ -737,6 +768,35 @@ footer a:hover {
     }
     #blog .blog-img {
         margin: 15px;
+    }
+    #blog {
+        padding: 0 20px; /* Reduce padding for smaller screens */
+    }
+
+    #blog .blog-box {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        padding-bottom: 40px; /* Reduce bottom spacing */
+    }
+
+    #blog .blog-img {
+        width: 100%; /* Full width for better visibility */
+        margin: 0 0 20px 0; /* Remove right margin & add bottom spacing */
+    }
+
+    #blog img {
+        height: auto; /* Maintain aspect ratio */
+        max-height: 250px; /* Prevent excessive height */
+    }
+
+    #blog .blog-details {
+        width: 100%; /* Full width for better text flow */
+        text-align: center; /* Center text for a clean look */
+        padding: 0 10px; /* Add some spacing */
+    }
+
+    #blog .blog-details a::after {
+        display: none; /* Hide the underline effect on small screens */
     }
 }
 
