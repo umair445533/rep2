@@ -611,7 +611,7 @@ footer a:hover {
         max-width: 100%;
         height: auto;
     }
-    #navbar.active{
+    #navbar.active {
         right: 0px;
     }
     #navbar li {
@@ -624,7 +624,7 @@ footer a:hover {
         display: flex;
         align-items: center;
     }
-    #mobile i{
+    #mobile i {
         color: #ffffff;
         font-size: 24px;
         padding-left: 20px;
@@ -665,7 +665,6 @@ footer a:hover {
     #blog {
         padding: 0 20px; /* Reduce padding for smaller screens */
     }
-
     #blog .blog-box {
         flex-direction: column; /* Stack items vertically */
         align-items: center;
