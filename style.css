@@ -1094,20 +1094,19 @@ footer a:hover {
 #charger-video .video video {
     width: 100%;
     height: 100%;
-    border-radius: 0px;
+    border-radius: 100px;
 }
 
 
 #charger-video .video-container {
-    width: 100%;  /* Video will scale with the screen */
-    max-width: 100%;
-    height: auto;
-    display: block;  /* Removes extra spacing issues */
-    object-fit: contain; /* Ensures the video fits properly */
+    position: relative;
+    width: 145.2%;
+    max-width: 145.2%; /* Adjust as needed */
+    margin: -100px;
 }
 
 #charger-video .video-container video {
-    width: 90%;
+    width: 100%;
     height: auto;
     border-radius: 0px; /* Optional: Adds rounded corners */
 }
