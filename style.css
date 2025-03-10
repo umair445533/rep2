@@ -602,7 +602,7 @@ footer a:hover {
         height: auto;
     }
     #charger-video .video-container {
-        width: 90%;  /* Slight padding for smaller screens */
+        width: 1%;  /* Slight padding for smaller screens */
         max-width: 100%;
         height: auto;
     }
