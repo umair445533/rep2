@@ -917,7 +917,7 @@ footer a:hover {
 }
 
 #blog {
-    padding: 0px 150px 0 150px;
+    padding: 100px 20px 10px 50px;
 }
 
 #blog .blog-box {
@@ -926,7 +926,8 @@ footer a:hover {
     max-width: 140%;
     width: 140%;
     position: relative;
-    padding-bottom: 9px;
+    padding-bottom: 9opx;
+    margin: -80px;
 }
 
 #blog .blog-img {
