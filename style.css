@@ -1075,7 +1075,39 @@ footer a:hover {
             color: #007bff;
             margin: 10px 0;
 }
-
+#content-k {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#graph {
+            text-align: center;
+            margin: 20px 0;
+}
+#graph img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+}
+#explanation {
+            margin-top: 20px;
+}
+#explanation p {
+            margin-bottom: 15px;
+}
+#equation {
+            font-size: 1.2em;
+            text-align: center;
+            margin: 20px 0;
+}
+#equation code {
+            background: #e0e0e0;
+            padding: 5px 10px;
+            border-radius: 4px;
+}
     
 @media (max-width: 600px) {
     .ev-table th, .ev-table td {
