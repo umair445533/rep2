@@ -596,7 +596,7 @@ footer a:hover {
     #charger-video .video {
         position: relative;
         width: 850%;  /* Slight padding for smaller screens */
-        max-width: 1000%;
+        max-width: 900%;
         height: auto;
     }
     .section-p1 {
