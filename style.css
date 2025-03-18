@@ -43,6 +43,7 @@ p {
 
 body {
     width: 40px 0;
+    background-color: lightgreen;
 }
 
 button.normal {
