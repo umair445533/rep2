@@ -154,7 +154,7 @@ button.white {
 
 #hero {
     height: 33vh;
-    width: 70%;
+    width: 85%;
     background-size: cover;
     background-position: top 0% right 0;
     padding: 100 80px;
@@ -222,7 +222,7 @@ button.white {
 #feature .fe-box {
     width: 180px;
     text-align: center;
-    padding: -100px -100px;
+    padding: 100px 100px;
     border: 1px solid #11922a;
     border-radius: 0px;
     margin: 0px 0;
