@@ -153,8 +153,8 @@ button.white {
 
 
 #hero {
-    max-height: 90%;
-    max-width: 90%;
+    max-height: 80%;
+    max-width: 80%;
     background-size: cover;
     background-position: top 0% right 0;
     padding: 10 10px;
